@@ -1,0 +1,7 @@
+https://portal.azure.com/#@sesisenaispedu.onmicrosoft.com/resource/subscriptions/26921fcb-ac02-466f-b704-16cdf7a2809f/resourceGroups/2023/providers/Microsoft.DBforMySQL/flexibleServers/patadeurso/overview
+
+patadeurso
+
+senha azure: Urso@0104
+
+senha mysql: root123

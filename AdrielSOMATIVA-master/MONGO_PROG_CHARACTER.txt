@@ -1,0 +1,31 @@
+Infelizmente meu mongo não esta funcionando por falta de espaço no meu PC,
+Por conta disso vou colocar aqui como que ficaria a programação em NoSQL para a criação
+do banco de dados usando a tabela 'character' da API de rickandmorty. Espero que vc
+pelo menos leve em consideração.
+
+
+
+use rickandmorty;
+
+db.character.insertMany[{
+		"id": 1,
+		"name": "Rick Sanchez",
+		"status": "Alive",
+		"species": "Human",
+		"type": "",
+		"gender": "Male",
+		"origin": {
+			"name": "Earth (C-137)",
+			"url": "https://rickandmortyapi.com/api/location/1"
+		},
+		"location": {
+			"name": "Citadel of Ricks",
+			"url": "https://rickandmortyapi.com/api/location/3"
+		},
+		"image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+		"episode": [
+			"https://rickandmortyapi.com/api/episode/1",
+			"https://rickandmortyapi.com/api/episode/51"
+		],
+		"url": "https://rickandmortyapi.com/api/character/1",
+		"created": "2017-11-04T18:48:46.250Z" }])
